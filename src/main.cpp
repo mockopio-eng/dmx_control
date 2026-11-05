@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include <SPI.h>
+#include <FS.h>  // wymagane przez EthernetWebServer; jawny include, żeby PlatformIO dodało bibliotekę FS
 
 // --- ETHERNET W5500 (bez Wi-Fi) ---
 #define USE_ETHERNET_GENERIC true
